@@ -11,8 +11,9 @@ GetReview <- function(movie) {
   # Your parameters should include a "query" and an "api_key"
   # Note: the HTTR library will take care of spaces in the arguments
   # See the interactive console for more detail:https://developer.nytimes.com/movie_reviews_v2.json#/Console/GET/reviews/search.json
-  
-  
+  # API key cff72e5161214527bf0df5c1aa3ef374
+  base.url <- https://api.nytimes.com/svc/movies/v2/reviews/search.json?
+  api.key <- cff72e5161214527bf0df5c1aa3ef374
   # Request data using your search query
   
   
